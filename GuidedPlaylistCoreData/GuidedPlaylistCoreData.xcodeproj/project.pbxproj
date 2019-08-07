@@ -17,6 +17,8 @@
 		25AB9C3322FB40DB000CEFB9 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB9C3222FB40DB000CEFB9 /* Song+Convenience.swift */; };
 		25AB9C3622FB4338000CEFB9 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB9C3522FB4338000CEFB9 /* PlaylistController.swift */; };
 		25AB9C3822FB47EB000CEFB9 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB9C3722FB47EB000CEFB9 /* SongController.swift */; };
+		25AB9C3B22FB4AA5000CEFB9 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB9C3A22FB4AA5000CEFB9 /* PlaylistTableViewController.swift */; };
+		25AB9C3D22FB4AB3000CEFB9 /* SongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB9C3C22FB4AB3000CEFB9 /* SongListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		25AB9C3222FB40DB000CEFB9 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 		25AB9C3522FB4338000CEFB9 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 		25AB9C3722FB47EB000CEFB9 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		25AB9C3A22FB4AA5000CEFB9 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		25AB9C3C22FB4AB3000CEFB9 /* SongListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		25AB9C1722FB3745000CEFB9 /* GuidedPlaylistCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				25AB9C3E22FB4AB7000CEFB9 /* Views */,
 				25AB9C3922FB47F1000CEFB9 /* Controllers */,
 				25AB9C3422FB42D5000CEFB9 /* Models */,
 				25AB9C2F22FB3EE0000CEFB9 /* Resources */,
@@ -101,6 +106,15 @@
 				25AB9C3722FB47EB000CEFB9 /* SongController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25AB9C3E22FB4AB7000CEFB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25AB9C3A22FB4AA5000CEFB9 /* PlaylistTableViewController.swift */,
+				25AB9C3C22FB4AB3000CEFB9 /* SongListTableViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,10 +191,12 @@
 				25AB9C3822FB47EB000CEFB9 /* SongController.swift in Sources */,
 				25AB9C2122FB3745000CEFB9 /* GuidedPlaylistCoreData.xcdatamodeld in Sources */,
 				25AB9C3322FB40DB000CEFB9 /* Song+Convenience.swift in Sources */,
+				25AB9C3D22FB4AB3000CEFB9 /* SongListTableViewController.swift in Sources */,
 				25AB9C1922FB3745000CEFB9 /* AppDelegate.swift in Sources */,
 				25AB9C2E22FB3BEA000CEFB9 /* CoreDataStack.swift in Sources */,
 				25AB9C3122FB3F3A000CEFB9 /* Playlist+Convenience.swift in Sources */,
 				25AB9C3622FB4338000CEFB9 /* PlaylistController.swift in Sources */,
+				25AB9C3B22FB4AA5000CEFB9 /* PlaylistTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

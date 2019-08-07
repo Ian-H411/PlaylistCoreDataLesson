@@ -20,7 +20,7 @@ class SongController{
         PlaylistController.sharedInstance.saveToPersistentStore()
     }
     //DELETE
-    func deleteSongs(song: Song){
+    static func deleteSongs(song: Song){
         CoreDataStack.context.delete(song)
         PlaylistController.sharedInstance.saveToPersistentStore()
     }
